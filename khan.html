@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title></title>
+<style>
+* {
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+}
+uni-view {
+	display: block;
+}
+.register-container [data-v-24c7cd4e].login_content {
+	position: relative;
+	padding-top: 25px;
+}
+[data-v-24c7cd4e].register-container {
+	min-height: 100vh;
+	background-image: url(/static/img/login-bg.36a8d8de.jpg);
+	background-size: 100% 100%;
+}
+uni-page-body, uni-page-refresh {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+uni-page-body {
+	font-size: 14px;
+	color: #212529;
+	font-family: PingFangSC-Semibold,PingFang SC;
+	background-color: #f5f8fa;
+}
+uni-page-wrapper {
+	display: block;
+	height: 100%;
+	position: relative;
+}
+uni-page {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+uni-app {
+	width: 100%;
+	height: 100%;
+}
+uni-app, uni-page-head {
+	display: block;
+	box-sizing: border-box;
+}
+body, html {
+	-webkit-user-select: none;
+	user-select: none;
+	width: 100%;
+	height: 100%;
+}
+body {
+	overflow-x: hidden;
+}
+body {
+	background-color: #f5f8fa;
+}
+body::after {
+	position: fixed;
+	content: "";
+	left: -1000px;
+	top: -1000px;
+	-webkit-animation: shadow-preload .1s;
+	-webkit-animation-delay: 3s;
+	animation: shadow-preload .1s;
+	animation-delay: 3s;
+}
+.register-container .login_content .form [data-v-24c7cd4e].labeltxt {
+	overflow: hidden;
+	width: 249px;
+	font-size: 12px;
+	height: 50px;
+	padding-top: 15px;
+	border-bottom: 1px solid #d8bac5;
+	margin: 9px auto 0;
+	position: relative;
+	box-sizing: border-box;
+}
+uni-navigator {
+	height: auto;
+	width: auto;
+	display: block;
+	cursor: pointer;
+}
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ft30 {
+	font-size: 15px;
+}
+.register-container .login_content .form [data-v-24c7cd4e].button {
+	width: 249px;
+	height: 42px;
+	border-radius: 25px;
+	margin: 22px auto 0;
+	background: #ff1964;
+	font-weight: 700;
+	color: #fff;
+}
+.register-container .login_content .form [data-v-24c7cd4e].sign {
+	color: #191919;
+	height: 65px;
+}
+.register-container .login_content .form [data-v-24c7cd4e].font_box {
+	overflow: hidden;
+	background: #ffe7ef;
+	width: 275px;
+	margin: 0 auto;
+	padding: 22px 17px 20px 20px;
+	border-radius: 25px;
+}
+.flex {
+	display: flex;
+}
+.alcenter {
+	align-items: center;
+}
+.register-container .login_content .form .font_box [data-v-24c7cd4e].tip {
+	font-size: 8px;
+	color: #2a2a2a;
+	line-height: 15px;
+	margin-top: 5px;
+}
+uni-switch {
+	-webkit-tap-highlight-color: transparent;
+	display: inline-block;
+	cursor: pointer;
+}
+.register-container .login_content .form .font_box .top [data-v-24c7cd4e].des {
+	font-size: 12px;
+	color: #191919;
+	font-weight: 700;
+	margin-left: 7px;
+}
+uni-switch .uni-switch-wrapper {
+	display: -webkit-inline-flex;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+	vertical-align: middle;
+}
+uni-switch .uni-switch-input {
+	-webkit-appearance: none;
+	appearance: none;
+	position: relative;
+	width: 52px;
+	height: 32px;
+	margin-right: 5px;
+	border: 1px solid #dfdfdf;
+	outline: 0;
+	border-radius: 16px;
+	box-sizing: border-box;
+	background-color: #dfdfdf;
+	-webkit-transition: background-color .1s, border .1s;
+	transition: background-color .1s, border .1s;
+}
+uni-switch .uni-switch-input::before {
+	width: 50px;
+	background-color: #fdfdfd;
+}
+uni-switch .uni-switch-input::after, uni-switch .uni-switch-input::before {
+	content: " ";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 30px;
+	border-radius: 15px;
+	transition: -webkit-transform .3s;
+	-webkit-transition: -webkit-transform .3s;
+	transition: transform .3s;
+	transition: transform .3s, -webkit-transform .3s;
+}
+uni-switch .uni-switch-input::after {
+	width: 30px;
+	background-color: #fff;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+uni-switch .uni-switch-input.uni-switch-input-checked {
+	border-color: #007aff;
+	background-color: #007aff;
+}
+uni-switch .uni-switch-input.uni-switch-input-checked::before {
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+uni-switch .uni-switch-input.uni-switch-input-checked::after {
+	-webkit-transform: translateX(20px);
+	transform: translateX(20px);
+}
+uni-switch .uni-checkbox-input {
+	margin-right: 5px;
+	-webkit-appearance: none;
+	appearance: none;
+	outline: 0;
+	border: 1px solid #d1d1d1;
+	background-color: #fff;
+	border-radius: 3px;
+	width: 22px;
+	height: 22px;
+	position: relative;
+	color: #007aff;
+}
+uni-switch .uni-checkbox-input.uni-checkbox-input-checked::before {
+	font: normal normal normal 14px/1 uni;
+	content: "\EA08";
+	color: inherit;
+	font-size: 22px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -48%) scale(0.73);
+	-webkit-transform: translate(-50%, -48%) scale(.73);
+}
+uni-input {
+	display: block;
+	font-size: 16px;
+	line-height: 1.4em;
+	height: 1.4em;
+	min-height: 1.4em;
+	overflow: hidden;
+}
+.register-container .login_content .form .labeltxt uni-input[data-v-24c7cd4e] {
+	width: 100%;
+	height: 100%;
+	font-size: 13px;
+	color: #191919;
+}
+uni-image {
+	width: 320px;
+	height: 240px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+.register-container .login_content .form .labeltxt uni-image[data-v-24c7cd4e] {
+	width: 75px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+uni-image > div, uni-image > img {
+	width: 100%;
+	height: 100%;
+}
+.uni-input-form, .uni-input-input, .uni-input-placeholder, .uni-input-wrapper {
+	outline: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	text-decoration: inherit;
+}
+.uni-input-form, .uni-input-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.uni-input-input, .uni-input-placeholder {
+	width: 100%;
+}
+.uni-input-placeholder {
+	position: absolute;
+	top: auto !important;
+	left: 0px;
+	color: grey;
+	overflow: hidden;
+	text-overflow: clip;
+	white-space: pre;
+	word-break: keep-all;
+	pointer-events: none;
+	line-height: inherit;
+}
+.uni-input-input {
+	position: relative;
+	display: block;
+	height: 100%;
+	background: none;
+	color: inherit;
+	opacity: 1;
+	font: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
+	text-align: inherit;
+	text-indent: inherit;
+	text-transform: inherit;
+	text-shadow: inherit;
+}
+[type=number].uni-input-input {
+	-moz-appearance: textfield;
+}
+</style>
+</head>
+<body class="uni-body pages-login-register"><uni-app class="uni-app--maxwidth"><uni-page data-page="pages/login/register"><uni-page-wrapper><uni-page-body><uni-view class="register-container" data-v-24c7cd4e=""><uni-view class="login_content" data-v-24c7cd4e=""><uni-view class="form" data-v-24c7cd4e=""><uni-view class="labeltxt" data-v-24c7cd4e=""><uni-input data-v-24c7cd4e="" minlength="5"><div class="uni-input-wrapper"><div class="uni-input-placeholder input-placeholder" style="color: rgb(25, 25, 25); font-size: 13px;" data-v-24c7cd4e="">Mobile number</div><input class="uni-input-input" type="number" maxlength="16" step="0.000000000000000001" pattern="[0-9]*" enterkeyhint="done" autocomplete="off"><!----></div></uni-input></uni-view><uni-view class="labeltxt" data-v-24c7cd4e=""><uni-input data-v-24c7cd4e=""><div class="uni-input-wrapper"><div class="uni-input-placeholder input-placeholder" style="color: rgb(25, 25, 25); font-size: 13px;" data-v-24c7cd4e="">Login password</div><input class="uni-input-input" type="password" maxlength="16" step="" enterkeyhint="done" autocomplete="off"><!----></div></uni-input></uni-view><uni-view class="labeltxt" data-v-24c7cd4e=""><uni-input data-v-24c7cd4e=""><div class="uni-input-wrapper"><div class="uni-input-placeholder input-placeholder" style="color: rgb(25, 25, 25); font-size: 13px;" data-v-24c7cd4e="">Security password</div><input class="uni-input-input" type="password" maxlength="16" step="" enterkeyhint="done" autocomplete="off"><!----></div></uni-input></uni-view><uni-view class="labeltxt" data-v-24c7cd4e=""><uni-input data-v-24c7cd4e=""><div class="uni-input-wrapper"><div class="uni-input-placeholder input-placeholder" style="color: rgb(25, 25, 25); font-size: 13px; display: none;" data-v-24c7cd4e="">Invite code</div><input class="uni-input-input" type="" maxlength="16" step="" enterkeyhint="done" autocomplete="off"><!----></div></uni-input></uni-view><uni-view class="labeltxt" data-v-24c7cd4e=""><uni-input data-v-24c7cd4e=""><div class="uni-input-wrapper"><div class="uni-input-placeholder input-placeholder" style="color: rgb(25, 25, 25); font-size: 13px;" data-v-24c7cd4e="">Attach</div><input class="uni-input-input" type="" maxlength="6" step="" enterkeyhint="done" autocomplete="off"><!----></div></uni-input><uni-image data-v-24c7cd4e=""><div style="background-position: 0% 0%; background-image: none; background-repeat: no-repeat; background-size: 100% 100%;"></div><!----><!----></uni-image></uni-view><uni-view class="button flex-center ft30" data-v-24c7cd4e="">Sign up</uni-view><uni-navigator class="sign flex-center" data-v-24c7cd4e="">Sign In</uni-navigator><uni-view class="font_box" data-v-24c7cd4e=""><uni-view class="top flex alcenter" data-v-24c7cd4e=""><uni-switch style="transform: scale(0.8);" data-v-24c7cd4e=""><div class="uni-switch-wrapper"><div class="uni-switch-input uni-switch-input-checked" style="border-color: rgb(237, 70, 111); background-color: rgb(237, 70, 111);"></div><div class="uni-checkbox-input uni-checkbox-input-checked" style="color: rgb(237, 70, 111); display: none;"></div></div></uni-switch><uni-view class="des" data-v-24c7cd4e="">Encrypted registration</uni-view></uni-view><uni-view class="tip" data-v-24c7cd4e="">The password is stored in a decentralized way and cannot be retrieved after it is lost. Please remember your password.</uni-view></uni-view></uni-view></uni-view></uni-view></uni-page-body></uni-page-wrapper></uni-page></uni-app></body>
+</html>

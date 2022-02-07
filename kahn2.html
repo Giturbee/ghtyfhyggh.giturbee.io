@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title></title>
+<style>
+* {
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+}
+uni-view {
+	display: block;
+}
+.login-container [data-v-f4202e5e].reg_content {
+	position: relative;
+	padding-top: 25px;
+}
+[data-v-f4202e5e].login-container {
+	min-height: 100vh;
+	background-image: url(/static/img/login-bg.36a8d8de.jpg);
+	background-size: 100% 100%;
+}
+uni-page-body, uni-page-refresh {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+uni-page-body {
+	font-size: 14px;
+	color: #212529;
+	font-family: PingFangSC-Semibold,PingFang SC;
+	background-color: #f5f8fa;
+}
+uni-page-wrapper {
+	display: block;
+	height: 100%;
+	position: relative;
+}
+uni-page {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+uni-app {
+	width: 100%;
+	height: 100%;
+}
+uni-app, uni-page-head {
+	display: block;
+	box-sizing: border-box;
+}
+body, html {
+	-webkit-user-select: none;
+	user-select: none;
+	width: 100%;
+	height: 100%;
+}
+body {
+	overflow-x: hidden;
+}
+body {
+	background-color: #f5f8fa;
+}
+body::after {
+	position: fixed;
+	content: "";
+	left: -1000px;
+	top: -1000px;
+	-webkit-animation: shadow-preload .1s;
+	-webkit-animation-delay: 3s;
+	animation: shadow-preload .1s;
+	animation-delay: 3s;
+}
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.login-container .reg_content [data-v-f4202e5e].form {
+	overflow: hidden;
+	width: 270px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.login-container .reg_content [data-v-f4202e5e].button_grow {
+	overflow: hidden;
+	width: 247px;
+	margin: 50px auto 0;
+}
+uni-navigator {
+	height: auto;
+	width: auto;
+	display: block;
+	cursor: pointer;
+}
+.login-container .reg_content .button_grow [data-v-f4202e5e].btn {
+	overflow: hidden;
+	width: 100%;
+	height: 42px;
+	border-radius: 25px;
+	display: flex;
+	margin: 0 auto 19px;
+	align-items: center;
+	background: #ff1964;
+	justify-content: center;
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+}
+.login-container .reg_content .button_grow [data-v-f4202e5e].btn.on {
+	background: #ffecf2;
+	color: #ff1964;
+}
+.mb30 {
+	margin-bottom: 15px;
+}
+.login-container .reg_content .form [data-v-f4202e5e].item {
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+.flex {
+	display: flex;
+}
+.alcenter {
+	align-items: center;
+}
+uni-switch {
+	-webkit-tap-highlight-color: transparent;
+	display: inline-block;
+	cursor: pointer;
+}
+.login-container .reg_content .form .switchs [data-v-f4202e5e].des {
+	color: #191919;
+	font-size: 10px;
+	font-weight: 700;
+	margin-left: 5px;
+}
+uni-switch .uni-switch-wrapper {
+	display: -webkit-inline-flex;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+	vertical-align: middle;
+}
+uni-switch .uni-switch-input {
+	-webkit-appearance: none;
+	appearance: none;
+	position: relative;
+	width: 52px;
+	height: 32px;
+	margin-right: 5px;
+	border: 1px solid #dfdfdf;
+	outline: 0;
+	border-radius: 16px;
+	box-sizing: border-box;
+	background-color: #dfdfdf;
+	-webkit-transition: background-color .1s, border .1s;
+	transition: background-color .1s, border .1s;
+}
+uni-switch .uni-switch-input::before {
+	width: 50px;
+	background-color: #fdfdfd;
+}
+uni-switch .uni-switch-input::after, uni-switch .uni-switch-input::before {
+	content: " ";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 30px;
+	border-radius: 15px;
+	transition: -webkit-transform .3s;
+	-webkit-transition: -webkit-transform .3s;
+	transition: transform .3s;
+	transition: transform .3s, -webkit-transform .3s;
+}
+uni-switch .uni-switch-input::after {
+	width: 30px;
+	background-color: #fff;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+uni-switch .uni-switch-input.uni-switch-input-checked {
+	border-color: #007aff;
+	background-color: #007aff;
+}
+uni-switch .uni-switch-input.uni-switch-input-checked::before {
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+uni-switch .uni-switch-input.uni-switch-input-checked::after {
+	-webkit-transform: translateX(20px);
+	transform: translateX(20px);
+}
+uni-switch .uni-checkbox-input {
+	margin-right: 5px;
+	-webkit-appearance: none;
+	appearance: none;
+	outline: 0;
+	border: 1px solid #d1d1d1;
+	background-color: #fff;
+	border-radius: 3px;
+	width: 22px;
+	height: 22px;
+	position: relative;
+	color: #007aff;
+}
+uni-switch .uni-checkbox-input.uni-checkbox-input-checked::before {
+	font: normal normal normal 14px/1 uni;
+	content: "\EA08";
+	color: inherit;
+	font-size: 22px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -48%) scale(0.73);
+	-webkit-transform: translate(-50%, -48%) scale(.73);
+}
+.login-container .reg_content .form .item [data-v-f4202e5e].form-title {
+	font-size: 16px;
+	color: #191919;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.login-container .reg_content .form .item [data-v-f4202e5e].label {
+	overflow: hidden;
+	width: 100%;
+	border-radius: 30px;
+	background: #fff1f5;
+	justify-content: flex-start;
+	font-size: 12px;
+	height: 52px;
+	margin-left: 14px;
+	margin-bottom: 13px;
+}
+uni-input {
+	display: block;
+	font-size: 16px;
+	line-height: 1.4em;
+	height: 1.4em;
+	min-height: 1.4em;
+	overflow: hidden;
+}
+.login-container .reg_content .form .item .label uni-input[data-v-f4202e5e] {
+	width: 60%;
+	height: 100%;
+	padding-left: 15px;
+	font-size: 14px;
+	color: #ff8ab0;
+}
+uni-image {
+	width: 320px;
+	height: 240px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+.login-container .reg_content .form .item .label [data-v-f4202e5e].attach-img {
+	width: 75px;
+	height: 30px;
+}
+uni-image > div, uni-image > img {
+	width: 100%;
+	height: 100%;
+}
+.uni-input-form, .uni-input-input, .uni-input-placeholder, .uni-input-wrapper {
+	outline: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	text-decoration: inherit;
+}
+.uni-input-form, .uni-input-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.uni-input-input, .uni-input-placeholder {
+	width: 100%;
+}
+.uni-input-placeholder {
+	position: absolute;
+	top: auto !important;
+	left: 0px;
+	color: grey;
+	overflow: hidden;
+	text-overflow: clip;
+	white-space: pre;
+	word-break: keep-all;
+	pointer-events: none;
+	line-height: inherit;
+}
+.uni-input-input {
+	position: relative;
+	display: block;
+	height: 100%;
+	background: none;
+	color: inherit;
+	opacity: 1;
+	font: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
+	text-align: inherit;
+	text-indent: inherit;
+	text-transform: inherit;
+	text-shadow: inherit;
+}
+[type=number].uni-input-input {
+	-moz-appearance: textfield;
+}
+.login-container .reg_content [data-v-f4202e5e].logo {
+	width: 154px;
+	height: 154px;
+}
+</style>
+</head>
+<body class="uni-body pages-login-login"><uni-app class="uni-app--maxwidth"><uni-page data-page="pages/login/login"><uni-page-wrapper><uni-page-body><uni-view class="login-container" data-v-f4202e5e=""><uni-view class="reg_content" data-v-f4202e5e=""><uni-view class="loginlogo flex-center" data-v-f4202e5e=""><uni-image class="logo" data-v-f4202e5e=""><div style="background-position: 0% 0%; background-image: none; background-repeat: no-repeat; background-size: 100% 100%;"></div><!----><!----></uni-image></uni-view><uni-view class="form" data-v-f4202e5e=""><uni-view class="item" data-v-f4202e5e=""><uni-view class="form-title" data-v-f4202e5e="">Mobile number</uni-view><uni-view class="label flex alcenter" data-v-f4202e5e=""><uni-input data-v-f4202e5e=""><div class="uni-input-wrapper"><div class="uni-input-placeholder input-placeholder" style="color: rgb(255, 138, 176); font-size: 14px;" data-v-f4202e5e="">Mobile number</div><input class="uni-input-input" type="number" maxlength="16" step="0.000000000000000001" pattern="[0-9]*" enterkeyhint="done" autocomplete="off"><!----></div></uni-input></uni-view></uni-view><uni-view class="item mb30" data-v-f4202e5e=""><uni-view class="form-title" data-v-f4202e5e="">Login password</uni-view><uni-view class="label flex alcenter" data-v-f4202e5e=""><uni-input data-v-f4202e5e=""><div class="uni-input-wrapper"><div class="uni-input-placeholder input-placeholder" style="color: rgb(255, 138, 176); font-size: 14px;" data-v-f4202e5e="">Login password</div><input class="uni-input-input" type="password" maxlength="16" step="" enterkeyhint="done" autocomplete="off"><!----></div></uni-input></uni-view></uni-view><uni-view class="item mb30" style="display: none;" data-v-f4202e5e=""><uni-view class="form-title" data-v-f4202e5e="">Attach</uni-view><uni-view class="label flex alcenter" data-v-f4202e5e=""><uni-input data-v-f4202e5e=""><div class="uni-input-wrapper"><div class="uni-input-placeholder input-placeholder" style="width: 54%; color: rgb(153, 153, 153); font-size: 14px;" data-v-f4202e5e="">Attach</div><input class="uni-input-input" type="" maxlength="6" step="" enterkeyhint="done" autocomplete="off"><!----></div></uni-input><uni-image class="attach-img" data-v-f4202e5e=""><div style="background-position: 0% 0%; background-image: none; background-repeat: no-repeat; background-size: 100% 100%;"></div><!----><!----></uni-image></uni-view></uni-view><uni-view class="switchs flex alcenter" data-v-f4202e5e=""><uni-switch style="transform: scale(0.8);" data-v-f4202e5e="" value="true"><div class="uni-switch-wrapper"><div class="uni-switch-input uni-switch-input-checked" style="border-color: rgb(237, 70, 111); background-color: rgb(237, 70, 111);"></div><div class="uni-checkbox-input uni-checkbox-input-checked" style="color: rgb(237, 70, 111); display: none;"></div></div></uni-switch><uni-view class="des" data-v-f4202e5e="">Remember the password</uni-view></uni-view></uni-view><uni-view class="button_grow" data-v-f4202e5e=""><uni-view class="btn" data-v-f4202e5e="">Sign In</uni-view><uni-navigator class="btn on" data-v-f4202e5e="">Sign up</uni-navigator></uni-view></uni-view></uni-view></uni-page-body></uni-page-wrapper></uni-page></uni-app></body>
+</html>
